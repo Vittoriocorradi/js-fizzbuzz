@@ -44,7 +44,7 @@ MAIN
 */
 
 main {
-    padding: 3.75rem 2.5rem;
+    padding: 3.75rem 1.25rem;
 }
 
 main .container {
@@ -53,7 +53,7 @@ main .container {
     margin-top: 5rem;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 main .box {
@@ -61,7 +61,7 @@ main .box {
     height: 10rem;
     line-height: 10rem;
     text-align: center;
-    margin: 2.5rem;
+    margin: 1.25rem;
 }
 
 .box-number {
