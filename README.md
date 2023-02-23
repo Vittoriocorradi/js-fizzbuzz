@@ -20,21 +20,25 @@ Uso un ciclo che avrà come variabile i = 1 e che andrà avanti fino a che i non
 
     Creo una variabile stringFizzBuzz il cui valore sarà l'elemento div che conterrà un numero, fizz, buzz o fizzbuzz
 
+    Appendo a containerFizzBuzz l'elemento della variabile stringFizzBuzz
+
+    Aggiungo all'elemento della variabile stringFizzBuzz una classe per le dimensioni dei riquadri in cui sarà contenuto il testo
+
     SE i è un multiplo di tre ma non di cinque
 
-        la stringa riporterà fizz su console, verrà aggiunta come append a containerFizzBuzz e le saranno aggiunte classi per la stilizzazione css
+        la stringa riporterà Fizz su console, verrà aggiunto come append a stringFizzBuzz la parola Fizz e verrà aggiunta all'elemento la classe per determinarne il colore di background
 
     ALTRIMENTI SE i è un multiplo di cinque ma non di tre
 
-        la stringa riporterà buzz su console, verrà aggiunta come append a containerFizzBuzz e le saranno aggiunte classi per la stilizzazione css
+        la stringa riporterà Buzz su console, verrà aggiunto come append a stringFizzBuzz la parola Buzz e verrà aggiunta all'elemento la classe per determinarne il colore di background
 
     ALTRIMENTI SE i è un multiplo sia di tre sia di cinque
 
-        la stringa riporterà fizzbuzz su console, verrà aggiunta come append a containerFizzBuzz e le saranno aggiunte classi per la stilizzazione css
+        la stringa riporterà FizzBuzz su console, verrà aggiunto come append a stringFizzBuzz la parola FizzBuzz e verrà aggiunta all'elemento la classe per determinarne il colore di background
 
     ALTRIMENTI 
 
-        la stringa riporterà i su console, verrà aggiunta come append a containerFizzBuzz e le saranno aggiunte classi per la stilizzazione css
+        la stringa riporterà i su console, verrà aggiunto come append a stringFizzBuzz il valore di i e verrà aggiunta all'elemento la classe per determinarne il colore di background
 
     
 
